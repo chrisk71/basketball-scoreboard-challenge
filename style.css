@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* font-family: 'Cursed Timer ULiL', sans-serif; */
 }
 
 @font-face {
