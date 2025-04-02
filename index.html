@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scoreboard Challenge</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="home-side">
+          <h2>HOME</h2>
+          <div class="home-score">
+            <span id="home-num">0</span>
+          </div>
+          <div class="home-buttons">
+            <button class="home-btn" onclick="homeOnePoint()">+1</button>
+            <button class="home-btn" onclick="homeTwoPoint()">+2</button>
+            <button class="home-btn" onclick="homeThreePoint()">+3</button>
+          </div>
+        </div>
+        <div class="guest-side">
+          <h2>GUEST</h2>
+          <div class="guest-score">
+            <span id="guest-num">0</span>
+          </div>
+          <div class="guest-buttons">
+            <button class="guest-btn" onclick="guestOnePoint()">+1</button>
+            <button class="guest-btn" onclick="guestTwoPoint()">+2</button>
+            <button class="guest-btn" onclick="guestThreePoint()">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="reset-all-button">
+        <button id="reset-btn" onclick="resetAll()">RESET</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
